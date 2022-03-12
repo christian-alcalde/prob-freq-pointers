@@ -1,4 +1,10 @@
+"use strict";
+
 // add whatever parameters you deem necessary & write docstring
+
+/** Function takes in numArray and targetVal and identifies if
+ * a pair of numbers in the array averages to targetVal.
+ */
 function averagePair(numArray, targetVal) {
   let left = 0;
   let right = numArray.length - 1;

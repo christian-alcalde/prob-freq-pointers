@@ -4,7 +4,7 @@
  * valArray, setting values in keyArray as keys and
  * valArray as values  */
 function twoArrayObject(keyArray, valArray) {
-  let obj = {};
+  const obj = {};
   for (let index in keyArray) {
     obj[keyArray[index]] = valArray[index];
     if (valArray[index] === undefined) {
